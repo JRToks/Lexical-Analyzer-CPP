@@ -1,0 +1,27 @@
+#include <iostream>
+#include <iomanip>
+#define MAX = 5;
+
+int main() {
+    int num1 = 10;
+    int num2 = 20;
+    char _op_ = '+';
+    float _pi = 3.14;
+    bool is_true = true;
+
+    while(true){
+      if (num1 > num2) {
+          cout << "num1 is greater than num2" << endl;
+      } else {
+          cout << "num2 is greater than or equal to num1" << endl;
+      }
+  
+      for (int i = 0; i < MAX; ++i) {
+          cout << "Iteration: " << i << endl;
+      }
+    }
+
+    cout << "The value of pi is: " << pi << endl;
+
+    return 0;
+}
